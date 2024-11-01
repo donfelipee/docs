@@ -1,0 +1,60 @@
+---
+title: Data Usage, Storage & Privacy
+description: Learn about what data Traqqie uses, when it’s used, and how it’s securely stored.
+---
+
+# Data Usage & Storage in [Traqqie](https://traqqie.com)
+
+At [Traqqie](https://traqqie.com), we simplify your administration process with minimal data storage. This document outlines the specific data [Traqqie](https://traqqie.com) accesses, when it’s used, and how it’s securely stored.
+
+## Data Sources Accessed by [Traqqie](https://traqqie.com)
+
+We only access data necessary to deliver our services effectively. These are the primary data sources we interact with, which may include confidential or sensitive information:
+
+- **Your Calendar**
+- **Your Issue Management System**
+
+We treat the privacy of you and your organization with utmost seriousness, ensuring we collect only what’s needed to optimize your workflow without storing unnecessary information.
+
+---
+
+## Authentication Token Storage
+
+To retrieve data from these systems, you’ll authenticate and grant access to specific resources. We request **granular access** where possible, allowing us to only retrieve necessary data points. During authentication, you’ll see the precise data permissions for each system.
+
+Once authenticated, [Traqqie](https://traqqie.com) receives a token enabling data access. This token is stored securely, ensuring that even if unauthorized access occurs, the tokens are protected and unusable.
+
+---
+
+## Data Storage for WBSO Purposes
+
+To assist with your WBSO work, we store only essential data related to tasks and events, as outlined below. Note, data is only stored when time entries are created, if no data is saved on the Traqqie platform we also do not save any data from your connected data sources.
+
+### From Your Ticket Management System
+
+- **Ticket Name**
+- **Unique Ticket Identifier**
+- **Ticket URL**
+- **Timestamp Information** (e.g., creation, updates)
+- **User assigned to Ticket** (e.g., ID or username)
+- **WBSO Project Identifiers** (tags, labels, etc.)
+
+### From Your Calendar
+
+- **Event Name**
+- **Calendar Event Link**
+- **Start and End Times**
+
+To capture real-time data on project work, [Traqqie](https://traqqie.com) may request permission to create a **webhook** in your Issue Management System. This webhook enables tracking of relevant timestamps and entries, ensuring [Traqqie](https://traqqie.com) can gather only WBSO-relevant data points.
+
+---
+
+## AI Usage
+
+For clients using our **Pre-Compliance feature**, [Traqqie](https://traqqie.com) utilizes AI to double-check ticket descriptions and titles for WBSO compliance. Data shared with the AI (LLMs) is exclusively yours—it will not be used for external training purposes nor shared with any third parties outside of [Traqqie](https://traqqie.com). None of the requests sent to the AI API are saved, and any additional data retrieved from your ticket management system will not be persisted. For more details on how the AI API protects your data, see [OpenAI's Enterprise Privacy](https://openai.com/enterprise-privacy/).
+
+---
+
+<Tip>
+We are committed to safeguarding your data, applying strict encryption and access limitations to ensure your organization’s privacy and security.
+</Tip>

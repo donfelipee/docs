@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Traqqie",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/transparent.svg",
+    "light": "/logo/transparent.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon-32x32.png",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
@@ -16,18 +16,13 @@
     }
   },
   "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
+
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Traqqie Admin",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "data-privacy"
       ]
     }
     ]
